@@ -3,17 +3,15 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #4a98f7;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 `;
 
 export const AppContainer = styled.div`
   width: 100%;
-  max-width: 1050px;
-  height: 600px;
   padding: 10px;
   display: flex;
   gap: 12px;
@@ -74,7 +72,6 @@ export const Button = styled.button`
 
 export const CanvasContainer = styled.div`
   width: 100%;
-  height: 100%;
   flex: 1;
   background-color: white;
   border-radius: 8px;
